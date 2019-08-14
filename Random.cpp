@@ -13,7 +13,7 @@ float random(float low, float high) {
 	return low + static_cast <float> (rand()) / (static_cast <float> (RAND_MAX / (high - low)));
 }
 
-int main(){
-  //print a random number between -10 and +10
-  std::cout << random(-10, 10) << endl;
+int main() {
+	//print a random number between -10 and +10
+	std::cout << random(-10, 10) << std::endl;
 }
